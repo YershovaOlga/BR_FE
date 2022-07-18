@@ -217,6 +217,7 @@ body {
 
 .portfolio {
    background-color: #F6F6F6;
+   margin-bottom: 100px;
 }
 
 .portfolio_text {
@@ -229,25 +230,26 @@ body {
 .portfolio_img {
     width: 100%;
     display: block;
-    margin: 0 auto 40px;
 }
     
 .shop_link {
     text-align: center;
     font-size: 18px;
     line-height: 1.35;
-    margin: 50px;
+    margin: 40px 0 70px;
     display: block;
-    margin: 70px
 }
 
-.shop_link:not(:last-child) {
+.shop_link:last-child {
     margin-bottom: 100px;
 }
 
+.contacts {
+    margin: 100px auto;
+}
 .contacts_text {
     max-width: 280px;
-    margin: 0 auto 70px;     
+    margin: 20px auto 70px;     
     text-align: center;
     font-size: 18px;
     line-height: 1.35;
@@ -255,7 +257,6 @@ body {
 
 .contacts_img {
     text-align: center;
-    margin: 40px auto;
   }
 
 
@@ -268,14 +269,20 @@ body {
     color: #FFFFFF;
     font-size: 18px;
     line-height: 25px;
-    margin-bottom: 40px;
-    margin: 0 auto;
+    margin: 60px auto 30px;
     display: block;
+}
+
+.networks_links {
+    margin-right: 50px;
+}
+.networks_links:last-child {
+    margin-right: 0;
 }
 
 .like_text {
     max-width: 200px;
-    margin: 0 auto 100px;     
+    margin: 60px auto 100px;     
     text-align: center;
     font-size: 14px;
     line-height: 1.35;

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-forms</title>
+    <link rel="stylesheet" href="../5/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="general_form">
+        <section>
+            <div class="container">
+                <h2>Create an Account</h2>
+                <form action="#" method="get">
+                    <div class="flex_container">
+                        <label class="label" for="First Name">
+                            <p>First Name</p>
+                            <input class="input" type="text" name="First Name">
+                        </label>
+                        <label class="label" for="Last Name">
+                            <p>Last Name</p>
+                            <input class="input" type="text" name="Last Name">
+                        </label>
+                    </div>
+                    <label class="label" for="E-mail">
+                        <p>E-mail</p>
+                        <input class="input" type="email" id="email" name="E-mail">
+                    </label>
+                    <p>We'll never share your email with anyone else.</p>
+                    <div class="gender_radio">
+                        <label class="label" for="male">
+                            <input type="radio" id="male" name="Gender" value="Male" checked>
+                            <span class="fake-radio"></span>
+                            Male
+                        </label>
+                        <label class="label" for="female">
+                            <input type="radio" id="female" name="Gender" value="Female">
+                            <span class="fake-radio"></span>
+                            Female
+                        </label>
+                    </div>
+                    <div class="relative_wrapper">
+                        <div class="flex_container">
+                            <label class="label" for="Country">
+                                <p>Country</p>
+                                <select name="Country" id="Country">
+                                    <option value="ukraine">Ukraine</option>
+                                    <option value="ukraine">Ukraine</option>
+                                    <option value="ukraine">Ukraine</option>
+                                </select>
+                                <span class="fake_arrow"></span>
+                            </label>
+                            <label class="label" for="City">
+                                <p>City</p>
+                                <input class="input" type="text" name="City">
+                            </label>
+                        </div>
+                    </div>
+                    <button name="submit" type="submit">Sign Up</button>
+                </form>
+                <p class="signup-text">
+                    <span>By clicking the 'Sign Up' button, you confirm that you accept our</span>
+                    <span><a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a></span>
+                </p>
+                <hr />
+                <ul class="login">
+                    <li>Have an account?</li>
+                    <li><a href="#">Log In</a></li>
+                </ul>
+            </div>
+        </section>
+    </div>
+    <div class="general_form">
+        <section>
+            <div class="container">
+                <h2>Profile</h2>
+                <form action="#" method="get">
+                <div class="avatar">
+                    <img class="avatar_img" src="../5/assets/img/foto.svg" alt="foto">
+                </div>                
+                    <div class="flex_container">
+                        <label class="label" for="Name">
+                            <p>Name</p>
+                            <input class="input" type="text" name="Name">
+                        </label>
+                        <label class="label" for="E-mail">
+                            <p>E-mail</p>
+                            <input class="input" type="email" id="email" name="E-mail">
+                        </label>
+                    </div>
+                    <div class="relative_wrapper">
+                        <div class="flex_container">
+                            <label class="label" for="Country">
+                                <p>Country</p>
+                                <select name="Country" id="Country">
+                                    <option value="ukraine">Ukraine</option>
+                                    <option value="ukraine">Ukraine</option>
+                                    <option value="ukraine">Ukraine</option>
+                                </select>
+                                <span class="fake_arrow"></span>
+                            </label>
+                            <label class="label" for="City">
+                                <p>City</p>
+                                <input class="input" type="text" name="City">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="flex_container">
+                        <label class="label" for="ZipCode">
+                            <p>Zip Code</p>
+                            <input class="input" type="number" name="ZipCode">
+                        </label>
+                        <label class="label" for="E-mail">
+                            <p>Phone Number</p>
+                            <input class="input" type="number" id="PhoneNumber" name="PhoneNumber">
+                        </label>
+                    </div>
+                    <button class="small_button" name="Update" type="submit">Update</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>

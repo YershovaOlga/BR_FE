@@ -1,0 +1,266 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/*Core styles*/
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    letter-spacing: normal;
+    color: #969696;
+}
+
+.container {
+    width: 570px;
+    height: 590px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    margin: 55px 135px;
+    padding: 35px 34px 16px 36px;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    margin: 0;
+    color: #1C1C1C;
+}
+
+form {
+    padding: 0;
+}
+
+label {
+    color: #545454;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.2px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.signup-text {
+    margin: 11px 45px;
+    text-align: center;
+}
+
+.signup-text span {
+    display: block;
+}
+
+ul.login {
+    margin-left: 147px;
+    margin-right: 147px;
+    font-size: 15px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px
+}
+
+ul.login li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px; 
+    color: #545454;
+}
+
+ul.login a {
+    font-weight: 500;
+}
+
+hr {
+    background-color: #E4E4E4;
+}
+
+form button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    width: 500px;
+    height: 38px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    margin: 20px 0 22px;
+}
+
+form input {
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 36px;
+}
+
+.gender_radio label{
+    display: flex;
+    flex-direction: row;
+}
+
+.fake-radio {
+    border: 1px solid #E4E4E4;
+    width: 20px;
+    height: 20px;
+    display: inline;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.gender_radio input:checked + .fake-radio {
+    border: 6px solid #007BFF;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+/* Hide default radio button. */
+.gender_radio input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+} 
+
+.flex_container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 12px;
+}
+
+/* .general_form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+} */
+
+.gender_radio {
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+    column-gap: 12px;
+}
+.input {
+    width: 100%;
+}
+
+.flex_container select{
+    background: #FFFFFF;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px;
+    height: 38px;
+    appearance: none;
+}
+
+.label p {
+    height: 7px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+.fake_arrow {
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+    background-image: url(../img/Arrow_Double.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position:absolute;
+    right: 3px;
+    top: 46px;
+}
+
+.relative_wrapper {
+    position: relative;
+}
+
+.small_button {
+    width: 150px;   
+}
+
+.general_form {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*country {
+    display: flex;
+    height: 40px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #969696;
+    cursor: pointer;
+    padding-left: 10px;
+}*/
+
+
+
+
+
+
+
+
+
+/*
+h2 {
+font-size: 24px;
+}
+
+label {
+    display: block;
+    font-size: 15px;
+    line-height: 22px;
+    color: #545454;
+}
+
+.input {
+box-sizing: border-box;   
+background: #FFFFFF;
+border: 1px solid #E4E4E4;
+border-radius: 6px;
+Height: 38px;
+
+}*/
+
+
+
+/*.avatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.avatar_img {
+    width: 100%;
+    border-radius: 50%;
+}*/

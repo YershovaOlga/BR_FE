@@ -14,8 +14,8 @@
 </head>
 
 <body>
-    <div class="general_form">
-        <section>
+    <div class="flex">
+        <div class="general_form">
             <div class="container">
                 <h2>Create an Account</h2>
                 <form action="#" method="get">
@@ -51,6 +51,7 @@
                             <label class="label" for="Country">
                                 <p>Country</p>
                                 <select name="Country" id="Country">
+                                    <option value="space"></option>
                                     <option value="ukraine">Ukraine</option>
                                     <option value="ukraine">Ukraine</option>
                                     <option value="ukraine">Ukraine</option>
@@ -75,16 +76,26 @@
                     <li><a href="#">Log In</a></li>
                 </ul>
             </div>
-        </section>
-    </div>
-    <div class="general_form">
-        <section>
+        </div>
+        <div class="general_form">
             <div class="container">
                 <h2>Profile</h2>
                 <form action="#" method="get">
-                <div class="avatar">
-                    <img class="avatar_img" src="../5/assets/img/foto.svg" alt="foto">
-                </div>                
+                    <div class="block_avatar">
+                        <div class="avatar">
+                            <img slot="profile_avatar" src="./assets/img/foto.svg" alt="Profile avatar">
+                        </div>
+                        <div class="download">
+                            <label class="label_file">
+                                <input class="download_avatar" type="file" name="name">
+                                <img class="img_camera" src="./assets/img/camera.png" alt="download_file">
+                            </label>
+                            <p class="download_file">Up to 1 MB (300x300 px)</p>
+                        </div>
+                        <button class="delete">
+                            <img class="img_trash" src="./assets/img/trash.png" width="18px" alt="Download photo">
+                        </button>
+                    </div>
                     <div class="flex_container">
                         <label class="label" for="Name">
                             <p>Name</p>
@@ -100,6 +111,7 @@
                             <label class="label" for="Country">
                                 <p>Country</p>
                                 <select name="Country" id="Country">
+                                    <option value="space"></option>
                                     <option value="ukraine">Ukraine</option>
                                     <option value="ukraine">Ukraine</option>
                                     <option value="ukraine">Ukraine</option>
@@ -125,7 +137,7 @@
                     <button class="small_button" name="Update" type="submit">Update</button>
                 </form>
             </div>
-        </section>
+        </div>
     </div>
 </body>
 

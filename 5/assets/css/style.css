@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     width: 100%;
     height: 100%;
     margin: 0;
@@ -30,7 +31,6 @@ body {
     height: 590px;
     background-color: #FFFFFF;
     border-radius: 6px;
-    margin: 55px 135px;
     padding: 35px 34px 16px 36px;
 }
 
@@ -87,7 +87,7 @@ ul.login {
 ul.login li {
     display: inline;
     margin-left: 10px;
-    margin-right: 10px; 
+    margin-right: 10px;
     color: #545454;
 }
 
@@ -119,7 +119,7 @@ form input {
     height: 36px;
 }
 
-.gender_radio label{
+.gender_radio label {
     display: flex;
     flex-direction: row;
 }
@@ -133,7 +133,7 @@ form input {
     margin-right: 8px;
 }
 
-.gender_radio input:checked + .fake-radio {
+.gender_radio input:checked+.fake-radio {
     border: 6px solid #007BFF;
     width: 20px;
     height: 20px;
@@ -145,7 +145,7 @@ form input {
     opacity: 0;
     width: 0;
     height: 0;
-} 
+}
 
 .flex_container {
     display: flex;
@@ -154,23 +154,18 @@ form input {
     column-gap: 12px;
 }
 
-/* .general_form {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-} */
-
 .gender_radio {
     display: flex;
     width: auto;
     justify-content: space-between;
     column-gap: 12px;
 }
+
 .input {
     width: 100%;
 }
 
-.flex_container select{
+.flex_container select {
     background: #FFFFFF;
     border: 1px solid #E4E4E4;
     border-radius: 6px;
@@ -192,7 +187,7 @@ form input {
     background-image: url(../img/Arrow_Double.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    position:absolute;
+    position: absolute;
     right: 3px;
     top: 46px;
 }
@@ -202,65 +197,87 @@ form input {
 }
 
 .small_button {
-    width: 150px;   
+    width: 150px;
 }
 
 .general_form {
     display: flex;
     flex-direction: row;
-    
 }
 
-/*country {
+.block_avatar {
     display: flex;
-    height: 40px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    color: #969696;
-    cursor: pointer;
-    padding-left: 10px;
-}*/
-
-
-
-
-
-
-
-
-
-/*
-h2 {
-font-size: 24px;
+    flex-direction: row;
+    outline: 0;
+    margin: 20px auto 0;
 }
 
-label {
-    display: block;
-    font-size: 15px;
-    line-height: 22px;
-    color: #545454;
-}
-
-.input {
-box-sizing: border-box;   
-background: #FFFFFF;
-border: 1px solid #E4E4E4;
-border-radius: 6px;
-Height: 38px;
-
-}*/
-
-
-
-/*.avatar {
-    width: 80px;
+.avatar {
+    display: inline-block;
+    width: 100%;
+    max-width: 80px;
     height: 80px;
     border-radius: 50%;
+    background-color: #FFFFFF;
+    margin-right: 20px;
 }
 
-.avatar_img {
+.avatar img {
     width: 100%;
     border-radius: 50%;
-}*/
+}
+
+.label_file {
+    width: 138px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    cursor: pointer;
+    border: 1px solid #E4E4E4;
+    margin: 10px 9px 9px 0;
+}
+
+.download_avatar {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.img_camera {
+    display: flex;
+    width: 18px;
+    height: 20px;
+    margin-left: 113px;
+}
+
+
+.delete {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #E4E4E4;
+    margin-top: 10px;
+    background-color: #FFFFFF;
+}
+
+.delete:focus {
+    border-radius: 0px;
+    outline: 2px solid #007BFF;
+}
+
+.delete img {
+    justify-content: center;
+    align-content: center;
+}
+
+.img_trash {
+    display: block;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: 55px auto;
+}

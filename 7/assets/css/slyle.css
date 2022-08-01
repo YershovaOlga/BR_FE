@@ -1,0 +1,122 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+body {
+    padding: 13px 120px 90px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 12px;
+    margin-bottom: 83px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row
+}
+
+.logo {
+    flex-direction: column-reverse;
+}
+
+.language-switcher {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 82%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-right: 50px;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.breadcrumbs {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 82%;
+    letter-spacing: 0.03em;
+    margin: 0;
+    padding: 0;
+    text-align: inherit;
+}
+
+.breadcrumbs li {
+    display: inline;
+    list-style: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    display: inline-block;
+    content: "/";
+}
+
+.breadcrumbs a {
+    color: #000000;
+    text-decoration: none;
+}
+
+
+h3 {
+    display: inline-block;
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0 auto 40px;
+}
+
+p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+sup {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    padding-left: 10px;
+    vertical-align: top;
+    position: relative;
+    top: -10px;
+}
+
+code {
+    background-color: #DADADA;
+    font-family: 'PT Sans';
+}

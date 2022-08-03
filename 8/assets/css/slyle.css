@@ -30,6 +30,10 @@ body {
     margin: 0 auto;
 }
 
+.up_line {
+    margin: 0 auto 20px;
+}
+
 p {
     margin: 0;
     padding: 0;

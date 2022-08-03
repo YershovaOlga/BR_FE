@@ -1,0 +1,286 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+body {
+    padding: 0px 120px 90px 130px;
+
+}
+
+
+.text_container {
+    background-image: url(../img/bg-picture.png);
+    background-repeat: no-repeat;
+    background-position: 928px 150px;
+    background-attachment: fixed;
+
+}
+
+.up_line {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    column-gap: 12px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.flex_row {
+    display: flex;
+    justify-content: space-between;
+}
+.upper_nav {
+    display: flex;
+    flex-direction: row;
+    /* position: fixed; */
+}
+
+.logo {
+    flex-direction: column-reverse;
+    margin-top: 16px;
+}
+
+.language-switcher {
+    font-family: 'Tourney';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 82%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    margin-right: 50px;
+    margin-top: 29px;
+    display: inline-block;
+}
+
+.language-switcher a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.breadcrumbs {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 82%;
+    letter-spacing: 0.03em;
+    margin: 26px 0 0;
+    padding: 0;
+    text-align: inherit;
+    display: inline-block;
+}
+
+.breadcrumbs li {
+    display: inline;
+    list-style: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+    display: inline-block;
+    content: "/";
+    margin: 0px 10px;
+}
+
+.breadcrumbs a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav_container {
+    min-width: 385px;
+    padding-top: 188px; 
+}
+
+
+h3 {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 0 auto 40px;
+    display: inline-block;
+}
+
+p {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 48px;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+sup {
+    font-family: 'Farro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    text-transform: none;
+    padding-left: 10px;
+    vertical-align: top;
+    position: relative;
+    top: -10px;
+}
+
+code {
+    background-color: #DADADA;
+    font-family: 'PT Sans';
+}
+
+.line-over {
+    display: flex;
+    margin-bottom: 40px;
+    margin-top: 96px;
+}
+
+.use-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    display: inline-block;
+    flex-direction: column;
+    padding-left: 20px;
+    margin: 0;
+}
+
+.use-line {
+    position: relative;
+    top: 14px;
+}
+
+.label-container {
+    border-top: #BFBFBF 1px solid;
+    border-bottom: #BFBFBF 1px solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 20px 15px;
+    position: absolute;
+    margin: 0 auto;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    width: 270px;
+    height: 180px;
+}
+
+.flip-card-inner:hover {
+    transform: rotateX(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 10px;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #555;
+    color: white;
+    transform: rotateX(180deg);
+}
+
+.flip-card-back {
+    transform: rotateX(180deg);
+    z-index: 0;
+}
+
+.nav_text {
+    font-family: 'Francois One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    margin: 70px 0 10px;
+    display: block;
+    color: #000000;
+    border-bottom: 1px solid #BDBDBD;
+}
+
+
+.nav_list {
+    list-style-type: none;
+    padding: 0;
+    padding-inline-start: 0px;
+    display: inline-block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    position: fixed;
+}
+
+.nav_bar:first-child .nav_text {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.text_container {
+    margin-left: 38px;
+    padding-top: 172px;
+}
+

@@ -1,0 +1,278 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 120px 135px;
+    h3 {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #898F8F;
+        margin-bottom: 15px;
+    }
+    
+    h2 {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 60px;
+        line-height: 66px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFCC00;
+        margin-bottom: 40px;
+    }
+    
+    .yellow_icon {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        margin-bottom: 115px;
+
+        &::before,
+        &::after {
+            content: "";
+            display: block;
+            width: 210px;
+            position: relative;
+            bottom: 10px;
+            height: 1px;
+            background-color: #FFCC00;
+        }
+
+        &::before {
+            right: 5px;
+        }
+
+        &::after {
+            left: 5px;
+        }
+    }
+    
+    .container {
+        // @todo завжди ширину вказуй на 100%, якщо обмеження, то це max-width
+        width: 100%;
+        max-width: 1170px;
+        // 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        gap: 170px;
+    
+        .left_container {
+            display: flex;
+            align-items: center;
+            
+            .corner {
+                display: flex;
+                position: relative;
+                padding: 15px;
+
+                img {
+                    border: 1px solid #FFCC00;
+                }
+
+                .left_top,
+                .right_top,
+                .left_bottom,
+                .right_bottom {
+                    position: absolute;
+
+                    &::before,
+                    &::after {
+                        content: "";
+                        position: absolute;
+                        top: 0;
+                        background-color: #FFCC00;
+                    }
+
+                    &::before {
+                        width: 1px;
+                        height: 100px;   
+                    }
+
+                    &::after {
+                        width: 100px;
+                        height: 1px;   
+                    }
+                }
+
+                .left_top,
+                .right_top {
+                    top: 0;
+                }
+
+                .left_top {
+                    left: 0;
+                }
+
+                .right_top {
+                    right: 0;
+
+                    &::after {
+                        left: -100px; 
+                    }
+                }
+
+                .left_bottom,
+                .right_bottom {
+                    bottom: 0;
+
+                    &::before {
+                        top: -100px; 
+                    }
+                }
+
+                .left_bottom {
+                    left: 0;
+                }
+
+                .right_bottom {
+                    right: 0;
+
+                    &::after {
+                        left: -100px; 
+                    }
+                }
+            }
+        }
+    
+        .right_container {
+            border-left: #FFCC00 1px solid;
+            padding-left: 85px;
+            padding-top: 80px;
+            width: 50%;
+
+            h2 {
+                font-family: 'Roboto';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 36px;
+                line-height: 42px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #666666;
+                margin-bottom: 30px;
+            }
+    
+            .line {
+                border-top: 1px solid #FFCC00;
+                width: 100px;
+                margin: 0 auto 30px;
+            }
+    
+            h3 {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 36px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #666666;
+                margin-bottom: 30px;
+            }
+    
+            .text_lorem {
+                font-family: 'Raleway';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                color: #333333;
+                max-width: 430px;
+                margin: 0 auto 20px;
+            }
+
+            .last_line {
+                border-top: 4px solid #FC0;
+                width: 20px;
+                margin: 0 auto 25px;
+            }
+
+            .last_line::before {
+                border: 2px solid #FC0;
+                width: 10px;
+                margin-bottom: 25px;
+                content: "";
+                display: block;
+                position: relative;
+                right: 20px;
+                bottom: 4px;
+            } 
+
+            .last_line::after {
+                border: 2px solid #FC0;
+                width: 10px;
+                margin-bottom: 25px;
+                content: "";
+                display: block;
+                position: relative;
+                left: 27px;
+                bottom: 33px;
+            } 
+
+            .icon_container {
+                a {
+                    text-decoration: none;
+                    // &:hover {
+                    //     stroke: #FC0;
+                    // }
+                }
+                
+                text-align: center;
+                margin-bottom: 49px;
+            }
+            .button {
+                font-family: 'Open Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 14px;
+                text-align: center;
+                text-transform: uppercase;
+
+                a {
+                    color: #666666;
+                    padding: 5px 10px;
+                    border: 1px solid #FFCC00;
+                    text-decoration: none;
+                }
+               
+            }
+            }
+        }
+    
+    
+    
+    
+    
+    // span {
+    //     position: absolute;
+    //     border-top: 1px solid #FFCC00;
+    //     border-left: 1px solid #FFCC00;
+    //     width: 100px;
+    //     height: 100px;
+    //     top: -10;
+    //     left: -10;
+    // }
+}

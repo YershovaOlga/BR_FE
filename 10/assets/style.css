@@ -1,0 +1,236 @@
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 120px 135px;
+}
+body h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #898F8F;
+  margin-bottom: 15px;
+}
+body h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 66px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFCC00;
+  margin-bottom: 40px;
+}
+body .yellow_icon {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-bottom: 115px;
+}
+body .yellow_icon::before, body .yellow_icon::after {
+  content: "";
+  display: block;
+  width: 210px;
+  position: relative;
+  bottom: 10px;
+  height: 1px;
+  background-color: #FFCC00;
+}
+body .yellow_icon::before {
+  right: 5px;
+}
+body .yellow_icon::after {
+  left: 5px;
+}
+body .container {
+  width: 100%;
+  max-width: 1170px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 170px;
+}
+body .container .left_container {
+  display: flex;
+  align-items: center;
+}
+body .container .left_container .corner {
+  display: flex;
+  position: relative;
+  padding: 15px;
+}
+body .container .left_container .corner img {
+  border: 1px solid #FFCC00;
+}
+body .container .left_container .corner .left_top,
+body .container .left_container .corner .right_top,
+body .container .left_container .corner .left_bottom,
+body .container .left_container .corner .right_bottom {
+  position: absolute;
+}
+body .container .left_container .corner .left_top::before, body .container .left_container .corner .left_top::after,
+body .container .left_container .corner .right_top::before,
+body .container .left_container .corner .right_top::after,
+body .container .left_container .corner .left_bottom::before,
+body .container .left_container .corner .left_bottom::after,
+body .container .left_container .corner .right_bottom::before,
+body .container .left_container .corner .right_bottom::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  background-color: #FFCC00;
+}
+body .container .left_container .corner .left_top::before,
+body .container .left_container .corner .right_top::before,
+body .container .left_container .corner .left_bottom::before,
+body .container .left_container .corner .right_bottom::before {
+  width: 1px;
+  height: 100px;
+}
+body .container .left_container .corner .left_top::after,
+body .container .left_container .corner .right_top::after,
+body .container .left_container .corner .left_bottom::after,
+body .container .left_container .corner .right_bottom::after {
+  width: 100px;
+  height: 1px;
+}
+body .container .left_container .corner .left_top,
+body .container .left_container .corner .right_top {
+  top: 0;
+}
+body .container .left_container .corner .left_top {
+  left: 0;
+}
+body .container .left_container .corner .right_top {
+  right: 0;
+}
+body .container .left_container .corner .right_top::after {
+  left: -100px;
+}
+body .container .left_container .corner .left_bottom,
+body .container .left_container .corner .right_bottom {
+  bottom: 0;
+}
+body .container .left_container .corner .left_bottom::before,
+body .container .left_container .corner .right_bottom::before {
+  top: -100px;
+}
+body .container .left_container .corner .left_bottom {
+  left: 0;
+}
+body .container .left_container .corner .right_bottom {
+  right: 0;
+}
+body .container .left_container .corner .right_bottom::after {
+  left: -100px;
+}
+body .container .right_container {
+  border-left: #FFCC00 1px solid;
+  padding-left: 85px;
+  padding-top: 80px;
+  width: 50%;
+}
+body .container .right_container h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+body .container .right_container .line {
+  border-top: 1px solid #FFCC00;
+  width: 100px;
+  margin: 0 auto 30px;
+}
+body .container .right_container h3 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #666666;
+  margin-bottom: 30px;
+}
+body .container .right_container .text_lorem {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #333333;
+  max-width: 430px;
+  margin: 0 auto 20px;
+}
+body .container .right_container .last_line {
+  border-top: 4px solid #FC0;
+  width: 20px;
+  margin: 0 auto 25px;
+}
+body .container .right_container .last_line::before {
+  border: 2px solid #FC0;
+  width: 10px;
+  margin-bottom: 25px;
+  content: "";
+  display: block;
+  position: relative;
+  right: 20px;
+  bottom: 4px;
+}
+body .container .right_container .last_line::after {
+  border: 2px solid #FC0;
+  width: 10px;
+  margin-bottom: 25px;
+  content: "";
+  display: block;
+  position: relative;
+  left: 27px;
+  bottom: 33px;
+}
+body .container .right_container .icon_container {
+  text-align: center;
+  margin-bottom: 49px;
+}
+body .container .right_container .icon_container a {
+  text-decoration: none;
+}
+body .container .right_container .button {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+body .container .right_container .button a {
+  color: #666666;
+  padding: 5px 10px;
+  border: 1px solid #FFCC00;
+  text-decoration: none;
+}

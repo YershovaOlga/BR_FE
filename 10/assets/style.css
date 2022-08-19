@@ -15,7 +15,7 @@ body * {
 }
 
 body {
-  margin: 120px 135px;
+  margin-top: 100px;
 }
 body h3 {
   font-family: "Raleway";
@@ -43,7 +43,7 @@ body .yellow_icon {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  margin-bottom: 115px;
+  margin-bottom: 50px;
 }
 body .yellow_icon::before, body .yellow_icon::after {
   content: "";
@@ -65,13 +65,15 @@ body .container {
   max-width: 1170px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin: 0 auto;
-  gap: 170px;
 }
 body .container .left_container {
   display: flex;
   align-items: center;
+  justify-content: end;
+  width: 50%;
+  padding: 65px 85px 65px 70px;
+  border-right: #FC0 1px solid;
 }
 body .container .left_container .corner {
   display: flex;
@@ -144,9 +146,6 @@ body .container .left_container .corner .right_bottom::after {
   left: -100px;
 }
 body .container .right_container {
-  border-left: #FFCC00 1px solid;
-  padding-left: 85px;
-  padding-top: 80px;
   width: 50%;
 }
 body .container .right_container h2 {
@@ -159,6 +158,7 @@ body .container .right_container h2 {
   text-transform: capitalize;
   color: #666666;
   margin-bottom: 30px;
+  padding-top: 70px;
 }
 body .container .right_container .line {
   border-top: 1px solid #FFCC00;
@@ -195,7 +195,6 @@ body .container .right_container .last_line {
 body .container .right_container .last_line::before {
   border: 2px solid #FC0;
   width: 10px;
-  margin-bottom: 25px;
   content: "";
   display: block;
   position: relative;
@@ -205,32 +204,39 @@ body .container .right_container .last_line::before {
 body .container .right_container .last_line::after {
   border: 2px solid #FC0;
   width: 10px;
-  margin-bottom: 25px;
   content: "";
   display: block;
   position: relative;
   left: 27px;
-  bottom: 33px;
+  bottom: 8px;
 }
 body .container .right_container .icon_container {
   text-align: center;
-  margin-bottom: 49px;
+  margin-bottom: 45px;
 }
 body .container .right_container .icon_container a {
-  text-decoration: none;
+  display: inline-block;
+}
+body .container .right_container .icon_container a span {
+  display: inline-block;
+}
+body .container .right_container .icon_container a span:hover {
+  color: #ccb8b8;
+}
+body .container .right_container .icon_container a span:hover .path2:before {
+  color: #FC0;
+  transition: 0.3s ease-in;
 }
 body .container .right_container .button {
-  font-family: "Open Sans";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 14px;
   text-align: center;
-  text-transform: uppercase;
 }
 body .container .right_container .button a {
   color: #666666;
   padding: 5px 10px;
   border: 1px solid #FFCC00;
   text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
 }

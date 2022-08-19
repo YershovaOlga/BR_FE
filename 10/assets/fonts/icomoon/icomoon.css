@@ -13,7 +13,7 @@
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
-  speak: never;
+  /* speak: never; */
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -32,6 +32,8 @@
   border: 2px solid rgb(204, 204, 204);
   border-radius: 50%;
 }
+
+
 
 .icon-google .path2:before {
   content: "\e903";

@@ -547,7 +547,7 @@ img {
   }
 
   .hero {
-    background-image: url(/11/assets/img/bg-image_l.jpg);
+    background-image: url(../../assets/img/bg-large.jpg);
   }
 
   .hero_text {
@@ -773,7 +773,7 @@ img {
   }
 
   .hero {
-    background-image: url(/11/assets/img/bg-image_l.jpg);
+    background-image: url(../../assets/img/bg-large.jpg);
   }
 
   .hero_text {

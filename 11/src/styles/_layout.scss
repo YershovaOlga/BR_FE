@@ -1,0 +1,17 @@
+.container {
+    width: 90%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.footer {
+    background-color: #F4F4F4;
+    margin: 0 auto 30px;
+ }

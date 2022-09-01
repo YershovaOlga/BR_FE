@@ -1,0 +1,32 @@
+.nav_link {
+    position: relative;
+    &::after{
+        content: "";
+        display: inline-block;
+        width: 30px;
+        height: 1px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #fff;
+    }
+
+    &:hover {
+        &::after {
+            background-color: black;
+            transition: .3s ease;
+        }
+    }
+}
+
+.icon-instagram, .icon-facebook, .icon-twitter, .icon-linkedin2{
+&:hover {
+    &::before{
+        transition: .3s ease;
+        background-color: #565656;
+        color: #FFFFFF;
+        }
+    }
+}
+

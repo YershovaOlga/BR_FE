@@ -1,0 +1,64 @@
+/* red-hat-display-regular - latin */
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* red-hat-display-500 - latin */
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 500;
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* red-hat-display-600 - latin */
+@font-face {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 600;
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff2") format("woff2"), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local(""), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-700.woff2") format("woff2"), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+ul, p, li, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  width: 100%;
+  display: block;
+}

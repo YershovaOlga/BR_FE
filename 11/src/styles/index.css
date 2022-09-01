@@ -3,7 +3,7 @@
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff2") format("woff2"), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff") format("woff");
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* red-hat-display-500 - latin */
@@ -11,7 +11,7 @@
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff2") format("woff2"), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff") format("woff");
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* red-hat-display-600 - latin */
@@ -19,7 +19,7 @@
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff2") format("woff2"), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff") format("woff");
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-regular - latin */
@@ -27,7 +27,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff2") format("woff2"), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff") format("woff");
+  src: local(""), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff2") format("woff2"), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-700 - latin */
@@ -35,7 +35,7 @@
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-700.woff2") format("woff2"), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-700.woff") format("woff");
+  src: local(""), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-700.woff2") format("woff2"), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 html, body {
@@ -86,7 +86,7 @@ img {
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff2") format("woff2"), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff") format("woff");
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* red-hat-display-500 - latin */
@@ -94,7 +94,7 @@ img {
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 500;
-  src: local(""), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff2") format("woff2"), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff") format("woff");
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-500.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* red-hat-display-600 - latin */
@@ -102,7 +102,7 @@ img {
   font-family: "Red Hat Display";
   font-style: normal;
   font-weight: 600;
-  src: local(""), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff2") format("woff2"), url("/11/assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff") format("woff");
+  src: local(""), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff2") format("woff2"), url("../../assets/fonts/red-hat-display-v14-latin/red-hat-display-v14-latin-600.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-regular - latin */
@@ -110,7 +110,7 @@ img {
   font-family: "Lato";
   font-style: normal;
   font-weight: 400;
-  src: local(""), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff2") format("woff2"), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff") format("woff");
+  src: local(""), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff2") format("woff2"), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 /* lato-700 - latin */
@@ -118,7 +118,7 @@ img {
   font-family: "Lato";
   font-style: normal;
   font-weight: 700;
-  src: local(""), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-700.woff2") format("woff2"), url("/11/assets/fonts/lato-v23-latin/lato-v23-latin-700.woff") format("woff");
+  src: local(""), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-700.woff2") format("woff2"), url("../../assets/fonts/lato-v23-latin/lato-v23-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 html, body {
@@ -650,7 +650,7 @@ img {
 @media screen and (max-width: 767px) {
   .hero {
     margin-bottom: 70px;
-    background-image: url(/11/assets/img/bg-image_s.jpg);
+    background-image: url(../../assets/img/bg-image_s.jpg);
   }
 
   .hero_text {
@@ -876,7 +876,7 @@ img {
 @media screen and (max-width: 767px) {
   .hero {
     margin-bottom: 70px;
-    background-image: url(/11/assets/img/bg-image_s.jpg);
+    background-image: url(../../assets/img/bg-image_s.jpg);
   }
 
   .hero_text {

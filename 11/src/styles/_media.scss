@@ -116,7 +116,7 @@
 @media screen and (max-width: 767px) {
     .hero {
         margin-bottom: 70px;
-        background-image: url(/11/assets/img/bg-image_s.jpg);
+        background-image: url(../../assets/img/bg-image_s.jpg);
     }
 
     .hero_text {
@@ -135,7 +135,7 @@
         width: 100%;
         }
     }
-    
+
     .blog_item:last-child {
         flex-direction: column;
         flex-wrap: wrap;

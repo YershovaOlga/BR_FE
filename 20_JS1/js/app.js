@@ -17,7 +17,7 @@ alert(`Периметр квадрата дорівнює: ${sideLenght * 4}`);
 const circleRadius = prompt('Вкажіть радіус кола?')
 const circleRadiusConvert = parseFloat(circleRadius);
 if(circleRadius > 0) {
-    const circleSquare = Math.pow((Math.PI * circleRadiusConvert) , 2);
+    const circleSquare = Math.PI * circleRadiusConvert ** 2;
     alert(`Площа кола дорівнює: ${circleSquare}`)
 }
 

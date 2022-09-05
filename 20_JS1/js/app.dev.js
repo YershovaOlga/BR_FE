@@ -16,7 +16,7 @@ var circleRadius = prompt('Вкажіть радіус кола?');
 var circleRadiusConvert = parseFloat(circleRadius);
 
 if (circleRadius > 0) {
-  var circleSquare = Math.pow(Math.PI * circleRadiusConvert, 2);
+  var circleSquare = Math.PI * Math.pow(circleRadiusConvert, 2);
   alert("\u041F\u043B\u043E\u0449\u0430 \u043A\u043E\u043B\u0430 \u0434\u043E\u0440\u0456\u0432\u043D\u044E\u0454: ".concat(circleSquare));
 }
 /* Запитай у користувача відстань в кілометрах між двома містами і за скільки годин він хоче дістатися. 

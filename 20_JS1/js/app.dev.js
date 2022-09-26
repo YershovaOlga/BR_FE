@@ -44,3 +44,14 @@ if (amountDollarConvert > 0) {
 }
 
 alert("\u041D\u0430 \u0446\u044C\u043E\u043C\u0443 \u0432\u0441\u0435, \u043F\u0440\u0438\u0445\u043E\u0434\u044C\u0442\u0435 \u0449\u0435! \u0421\u043B\u0430\u0432\u0430 \u0423\u043A\u0440\u0430\u0457\u043D\u0456!");
+var myStringArray = [-3, 0, 4, 6, 7, 8];
+var arrayLength = myStringArray.length;
+var sum = 7;
+
+for (var i = 0; i < arrayLength; i++) {
+  for (var j = 0; j < arrayLength; j++) {
+    if (myStringArray[i] + myStringArray[j] === sum) {
+      console.log(myStringArray[i]);
+    }
+  }
+}

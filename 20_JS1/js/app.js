@@ -44,3 +44,15 @@ if(amountDollarConvert > 0) {
 }
 
 alert (`На цьому все, приходьте ще! Слава Україні!`)
+
+let myStringArray = [-3, 0, 4, 6, 7, 8];
+let arrayLength = myStringArray.length;
+let sum = 7;
+
+for (let i = 0; i < arrayLength; i++) {
+    for (let j = 0; j < arrayLength; j++) {
+        if (myStringArray[i] + myStringArray[j] === sum) {
+            console.log(myStringArray[i])
+        }
+    }
+}
